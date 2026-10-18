@@ -9,7 +9,7 @@ Tab0 Inc.
 Install the latest signed and notarized macOS release with Homebrew:
 
 ```bash
-brew install tab0inc/tap/decis
+brew install tab0inc/tap/decis-cli
 ```
 
 macOS and Linux can use the standalone installer:
