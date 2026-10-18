@@ -9,14 +9,18 @@ Tab0 Inc.
 Install the latest signed and notarized macOS release with Homebrew:
 
 ```bash
-brew install tab0inc/tap/decis
+brew install tab0inc/tap/decis-cli
 ```
 
 macOS and Linux can use the standalone installer:
 
 ```bash
-curl -fsSL https://github.com/tab0inc/decis-cli-releases/releases/latest/download/install.sh | sh
+curl -fsSL https://decis.me/install.sh | sh
 ```
+
+`https://decis.me/install.sh` redirects to the `install.sh` asset of this
+repository's latest release
+(`https://github.com/tab0inc/decis-cli-releases/releases/latest/download/install.sh`).
 
 Each release includes SHA-256 checksums and an SPDX SBOM. The installer verifies
 the selected archive against the published checksum before installing it.
